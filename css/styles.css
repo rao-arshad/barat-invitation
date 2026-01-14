@@ -139,13 +139,13 @@ button:focus {
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 
-  /* UPDATED: BRIGHT, CELEBRATORY GRADIENT */
+  /* NEW: ROYAL PLUM / AUBERGINE GRADIENT */
   background: linear-gradient(
     135deg,
-    #4fa27a 0%,
-    #2f7d5c 35%,
-    #1f5a44 65%,
-    #153f32 100%
+    #4a1f3d 0%,   /* rich plum */
+    #3a1830 35%,  /* deep aubergine */
+    #24101f 65%,  /* dark wine */
+    #14080f 100%  /* near-black plum */
   );
 
   overflow: hidden;
@@ -154,6 +154,7 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
+
 
 .hero::before {
   content: "";
